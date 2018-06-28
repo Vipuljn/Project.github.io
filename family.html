@@ -1,0 +1,54 @@
+<form method="post" enctype="multipart/form-data" action="familysave.php">
+	   <table class="table table-striped table-bordered table-hover">
+
+<tbody>
+<tr>
+<tr>
+<td>Employee No</label></td>
+<td><input type="text" name="Employee_No" required class="form-control"></td>
+</tr>
+<td>Family member name</td>
+<td><input type="text" name="Member_Name" required class="form-control"></td>
+</tr>
+<tr>
+<td>Relation</td>
+<td><input type="text" name="Relation" required class="form-control"></td></br>
+</tr>
+<tr>
+<td>Dependent</td>
+<td><select name="dependent" class="form-control">
+                                    <option>YES</option>
+                                    <option>NO</option>
+		                 </select></td>
+</tr>
+<tr>
+<td>Whether Employed</td>
+<td><select name="employed" class="form-control">
+									 <option>State</option>
+                                    <option>Centre</option>
+                                    <option>Unemployed</option>
+		                 </select></td>
+</tr>
+<tr>
+<td>Whether in same Deptt</td>
+<td> <select name="same_deptt" class="form-control">
+									 <option>YES</option>
+                                    <option>NO</option>
+	                 </select></td>
+</tr>
+<tr>
+<td>Employee Code(if in the same deptt.)</td>
+<td><input type="text" name="Employee_Code" class="form-control"></td>
+</tr>
+<td>Name of Department(if other than same deptt.</td>
+<td><input type="text" name="deptt_name" class="form-control"></td>
+</tr>
+<tr>
+<td>Member E-salary code</td>
+<td><input type="text" name="E_Salary_Code" class="form-control"></td>
+</tr>
+</tbody>
+</table>
+<br> <center> <button type="submit" name="save" class="btn btn-success">Save</button>
+			 
+ </form>
